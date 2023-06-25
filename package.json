@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "concurrently \"npm run start\" \"sh test.sh\""
+    "test": "concurrently \"npm run start\" \"sh tests/test.sh\""
   },
   "repository": {
     "type": "git",
