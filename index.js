@@ -10,6 +10,12 @@ app.get('/', (req, res) => {
     })
 });
 
+app.get("/hello", (req, res) => {
+    res.send({
+        "message": "Hello Earth!"
+    })
+});
+
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
