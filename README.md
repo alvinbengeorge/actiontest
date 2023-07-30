@@ -1,2 +1,3 @@
 # actiontest
-This is to test GithubActions
+The main purpose of this repository is to:
+To test GithubActions
