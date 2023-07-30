@@ -4,7 +4,7 @@
   "description": "This is to test GithubActions",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "concurrently \"npm run start\" \"sh tests/test.sh\""
   },
   "repository": {
